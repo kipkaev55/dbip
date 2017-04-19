@@ -1,0 +1,25 @@
+{
+    "name": "kipkaev55/dbip",
+    "description": "Library for DB-IP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Valerii Kipkaev",
+            "email": "kipkaev@kipkaev.name"
+        },
+        {
+            "name": "Foundation, Inc.",
+            "homepage": "https://db-ip.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "DbIpGeo": "src/"
+        }
+    }
+}
